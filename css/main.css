@@ -25,27 +25,6 @@ h1 {
     font-size: 30px;
 }
 
-table {
-    width:100%;
-}
-
-table, th , td {
-    border: 1px solid grey;
-    border-collapse: collapse;
-    padding: 5px;
-}
-
-th {
-    text-align: left; 
-}
-
-table tr:nth-child(odd) {
-    background-color: #f1f1f1;
-}
-table tr:nth-child(even) {
-    background-color: #ffffff;
-}
-
 nav#nav-main {
     background-color: #454545;
 }
@@ -75,4 +54,21 @@ ul#menu li a:hover {
 
 ul#menu li {
     background-color: #404040;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0285d1;
+  text-decoration: none;
 }

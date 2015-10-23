@@ -4,6 +4,7 @@ document.getElementById("nav01").innerHTML =
 "<ul id='menu'>" +
 "<li class='navigation-main'><a href='index.html'>Home</a></li>" +
 "<li><a href='about.html'>About</a></li>" +
+"<li><a href='tools.html'>Tools</a></li>" +
 "</ul>";
 
 function managePages() {
