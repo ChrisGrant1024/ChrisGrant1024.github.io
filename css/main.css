@@ -46,14 +46,19 @@ table tr:nth-child(even) {
     background-color: #ffffff;
 }
 
+nav#nav-main {
+    background-color: #454545;
+}
+
 ul#menu {
     padding: 0;
     margin-bottom: 11px;
+    background-color: #363636;
+    padding: 10px 0px;
 }
 
 ul#menu li {
     display: inline;
-    /*margin-right: 3px;*/
 }
 
 ul#menu li a {
@@ -66,4 +71,8 @@ ul#menu li a {
 ul#menu li a:hover {
     color: white;
     background-color: #454545;
+}
+
+ul#menu li {
+    background-color: #404040;
 }
