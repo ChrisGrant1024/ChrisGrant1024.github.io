@@ -10,7 +10,15 @@ body {
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
+    border-spacing: 5px;
     background-color: #ffffff;
+}
+
+.whitearea {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    background-color: #ffffff;    
 }
 
 #title {
@@ -20,9 +28,9 @@ body {
 }
 
 h1 {
-    font-family: Helvetica, sans-serif;
-    color: #000000;
-    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #ffffff;
+    font-size: 50px;
 }
 
 nav#nav-main {

@@ -6,12 +6,37 @@
 	</head>
 
 	<body>
+		<h1>Chris' Website</h1>
 		<nav id="nav01"></nav>
 		<div id="main">
 			<h2>Homepage</h2>
+		</div>
 
-			<p>I guess I could put like articles here?</p>
-			<footer id="footer"></footer>
+		<script>
+
+			addPost(
+				"Title", 
+				"Content Here!!"
+				);
+
+			addPost(
+				"Title",
+				"Contentos"
+				);
+
+			function addPost(title, content) {
+				var post = document.createElement("div");
+
+				post.setAttribute("class", "whitearea");
+
+				post.innerHTML = "<h2>" + title + "</h2>" + content;
+				document.body.appendChild(post);
+			}
+
+		</script>
+
+		<div class="whitearea">
+						<footer id="footer"></footer>
 		</div>
 		<script src="js/index.js"></script>
 	</body>
