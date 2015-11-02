@@ -2,13 +2,14 @@ body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
     background-color: #212121;
+    background-image: url("urface.png");
     color: #000000;
     padding: 3px;
 }
 
 #main {
     padding: 5px;
-    padding-left:  15px;
+    padding-left: 15px;
     padding-right: 15px;
     border-spacing: 5px;
     background-color: #ffffff;
@@ -16,9 +17,9 @@ body {
 
 .whitearea {
     padding: 5px;
-    padding-left:  15px;
+    padding-left: 15px;
     padding-right: 15px;
-    background-color: #ffffff;    
+    background-color: #ffffff;
 }
 
 #title {
@@ -65,18 +66,18 @@ ul#menu li {
 }
 
 .btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 16px;
-  background: #3498db;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
 
 .btn:hover {
-  background: #0285d1;
-  text-decoration: none;
+    background: #0285d1;
+    text-decoration: none;
 }
