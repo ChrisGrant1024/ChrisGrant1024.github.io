@@ -1,8 +1,7 @@
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-color: #212121;
-    background-image: url("urface.png");
+    background-color: #fff;
     color: #000000;
     padding: 3px;
 }
